@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="243px"
+    android:layout_margin="2px"
+    android:background="@drawable/itemfocus1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:minHeight="243px"
+    android:orientation="vertical"
+    android:padding="25px"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="3"
+        android:gravity="left|center"
+        android:singleLine="true"
+        android:textColor="@color/colorText1"
+        android:textSize="48px" />
+
+    <TextView
+        android:id="@+id/tv02"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        android:gravity="left|center"
+        android:singleLine="true"
+        android:textColor="@color/colorText1"
+        android:textSize="36px" />
+
+</LinearLayout>

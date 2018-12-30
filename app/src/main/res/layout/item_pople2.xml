@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="152px"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:gravity="center"
+    android:minHeight="152px"
+    android:orientation="horizontal"
+    android:weightSum="6">
+
+    <RelativeLayout
+        android:id="@+id/ll01"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_margin="2px"
+        android:layout_weight="3"
+        android:background="@drawable/itemfocus"
+        android:focusable="false"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv01"
+            android:layout_width="49px"
+            android:layout_height="46px"
+            android:layout_marginLeft="4px"
+            android:layout_marginTop="0px"
+            android:scaleType="fitXY"
+            android:src="@drawable/defaultimg"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="25px"
+            android:weightSum="5">
+
+            <TextView
+                android:id="@+id/tv01"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_alignParentTop="true"
+                android:layout_weight="3"
+                android:gravity="left|center"
+                android:singleLine="true"
+                android:textColor="@color/colorText1"
+                android:textSize="32px" />
+
+            <TextView
+                android:id="@+id/tv02"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="2"
+                android:gravity="left|center"
+                android:singleLine="true"
+                android:textColor="@color/colorText1"
+                android:textSize="24px" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll02"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_margin="2px"
+        android:layout_weight="1"
+        android:background="@drawable/itemfocus"
+        android:duplicateParentState="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/tv03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="设为默认"
+            android:textColor="@color/colorText1"
+            android:textSize="32px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll03"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_margin="2px"
+        android:layout_weight="1"
+        android:background="@drawable/itemfocus"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/tv04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="更改信息"
+            android:textColor="@color/colorText1"
+            android:textSize="32px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll04"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_margin="2px"
+        android:layout_weight="1"
+        android:background="@drawable/itemfocus"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/tv05"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="移除默认"
+            android:textColor="@color/colorText1"
+            android:textSize="32px" />
+    </LinearLayout>
+</LinearLayout>

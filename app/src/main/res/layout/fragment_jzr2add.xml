@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ppfuns.jxyyzl.view.TvEditText
+        android:id="@+id/et_xm1"
+        android:layout_width="255px"
+        android:layout_height="65px"
+        android:layout_marginLeft="125px"
+        android:layout_marginTop="60px"
+        android:background="@drawable/edit_focus"
+        android:gravity="center"
+        android:hint="输入儿童姓名"
+        android:singleLine="true"
+        android:textColor="@color/colorText1"
+        android:textSize="30px" />
+
+    <com.ppfuns.jxyyzl.view.TvEditText
+        android:id="@+id/et_xm2"
+        android:layout_width="255px"
+        android:layout_height="65px"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="60px"
+        android:background="@drawable/edit_focus"
+        android:gravity="center"
+        android:hint="输入监护人姓名"
+        android:singleLine="true"
+        android:textColor="@color/colorText1"
+        android:textSize="30px" />
+
+    <com.ppfuns.jxyyzl.view.PopEditTextSex
+        android:id="@+id/et_sex"
+        android:layout_width="255px"
+        android:layout_height="65px"
+        android:layout_marginLeft="125px"
+        android:layout_marginTop="140px"
+        android:background="@drawable/edit_focus"
+        android:gravity="center"
+        android:hint="选择儿童性别"
+        android:textColorHint="#000"
+        android:singleLine="true"
+        android:textColor="@color/colorText1"
+        android:textSize="30px" />
+
+    <com.ppfuns.jxyyzl.view.TvEditText
+        android:id="@+id/et_sfz"
+        android:layout_width="330px"
+        android:layout_height="65px"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="140px"
+        android:background="@drawable/edit_focus"
+        android:gravity="center"
+        android:hint="输入监护人身份证号"
+        android:singleLine="true"
+        android:textColor="@color/colorText1"
+        android:textSize="30px" />
+
+    <Button
+        android:id="@+id/bt_sr"
+        android:layout_width="255px"
+        android:layout_height="65px"
+        android:layout_marginLeft="125px"
+        android:layout_marginTop="220px"
+        android:background="@drawable/edit_focus"
+        android:gravity="center"
+        android:hint="选择儿童生日"
+        android:textColorHint="#000"
+        android:singleLine="true"
+        android:textColor="@color/colorText1"
+        android:textSize="30px" />
+
+    <com.ppfuns.jxyyzl.view.TvEditText
+        android:id="@+id/et_ph"
+        android:layout_width="330px"
+        android:layout_height="65px"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="220px"
+        android:background="@drawable/edit_focus"
+        android:gravity="center"
+        android:hint="输入监护人手机号码"
+        android:singleLine="true"
+        android:textColor="@color/colorText1"
+        android:textSize="30px" />
+
+
+    <LinearLayout
+        android:layout_width="710px"
+        android:layout_height="1px"
+        android:layout_marginLeft="65px"
+        android:layout_marginTop="346px"
+        android:background="#7DC7DF" />
+
+    <LinearLayout
+        android:layout_width="422px"
+        android:layout_height="65px"
+        android:layout_marginLeft="212px"
+        android:layout_marginTop="390px"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_cx"
+            android:layout_width="198px"
+            android:layout_height="65px"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/colorText1"
+            android:textSize="30px" />
+
+        <Button
+            android:id="@+id/bt_tj"
+            android:layout_width="198px"
+            android:layout_height="65px"
+            android:layout_marginLeft="24px"
+            android:gravity="center"
+            android:text="提交"
+            android:textColor="@color/colorText1"
+            android:textSize="30px" />
+    </LinearLayout>
+
+
+</RelativeLayout>

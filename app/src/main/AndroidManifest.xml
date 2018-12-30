@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ppfuns.jxyyzl"
+    tools:ignore="MissingLeanbackLauncher">
+
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.ppfuns.jxyyzl.MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <activity
+            android:name="com.ppfuns.jxyyzl.ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ppfuns.jxyyzl.ui.SelectHospitalActivity" />
+        <activity android:name="com.ppfuns.jxyyzl.ui.SelectDeptDateActivity" />
+        <activity android:name="com.ppfuns.jxyyzl.ui.SelectDoctorActivity" />
+        <activity android:name="com.ppfuns.jxyyzl.ui.SelectTimeActivity" />
+        <activity android:name="com.ppfuns.jxyyzl.ui.ConfirmActivity" />
+        <activity android:name="com.ppfuns.jxyyzl.ui.OrderResultActivity" />
+        <activity android:name="com.ppfuns.jxyyzl.ui.SelectPopleActivity" />
+        <activity android:name="com.ppfuns.jxyyzl.ui.AppointInfoActivity" />
+        <activity android:name="com.ppfuns.jxyyzl.ui.JzrglManagerActivity" />
+        <activity android:name="com.ppfuns.jxyyzl.ui.JzrglAddjzrActivity" />
+        <activity android:name="com.ppfuns.jxyyzl.ui.JzrglAddjzkActivity" />
+        <activity android:name="com.ppfuns.jxyyzl.ui.CjwtActivity" />
+        <activity android:name="com.ppfuns.jxyyzl.ui.JzrglEditActivity" />
+    </application>
+
+</manifest>

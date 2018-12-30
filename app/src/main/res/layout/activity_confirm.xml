@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lvgv_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yyghbak1"
+    android:focusableInTouchMode="false">
+
+    <com.ppfuns.jxyyzl.view.DateView
+        android:layout_width="215px"
+        android:layout_height="80px"
+        android:layout_marginLeft="1005px"
+        android:layout_marginTop="28px"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="right"
+        android:textColor="#FFFFFF"
+        android:textSize="24px" />
+
+    <LinearLayout
+        android:id="@+id/lvgv_ll01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="334px"
+        android:layout_marginTop="125px"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="left|center">
+
+        <ImageView
+            android:id="@+id/lvgv_iv01"
+            android:layout_width="33px"
+            android:layout_height="33px"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/num1n" />
+
+        <TextView
+            android:id="@+id/lvgv_tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="选择医院"
+            android:textColor="@color/colorText2"
+            android:textSize="28px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lvgv_ll02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="536px"
+        android:layout_marginTop="125px"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="left|center">
+
+        <ImageView
+            android:id="@+id/lvgv_iv02"
+            android:layout_width="33px"
+            android:layout_height="33px"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/num2n" />
+
+        <TextView
+            android:id="@+id/lvgv_tv02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="选择科室和日期"
+            android:textColor="@color/colorText2"
+            android:textSize="28px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lvgv_ll03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="835px"
+        android:layout_marginTop="125px"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="left|center">
+
+        <ImageView
+            android:id="@+id/lvgv_iv03"
+            android:layout_width="33px"
+            android:layout_height="33px"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/num3n" />
+
+        <TextView
+            android:id="@+id/lvgv_tv03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="选择医生"
+            android:textColor="@color/colorText2"
+            android:textSize="28px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lvgv_ll04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1038px"
+        android:layout_marginTop="125px"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="left|center">
+
+        <ImageView
+            android:id="@+id/lvgv_iv04"
+            android:layout_width="33px"
+            android:layout_height="33px"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/num4n" />
+
+        <TextView
+            android:id="@+id/lvgv_tv04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="选择时间"
+            android:textColor="@color/colorText2"
+            android:textSize="28px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="220px"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:gravity="center"
+            android:text="预约确认"
+            android:textColor="@color/colorText1"
+            android:textSize="40px" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="260px"
+            android:layout_marginRight="260px"
+            android:layout_marginTop="25px"
+            android:background="@color/colorText1"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250px"
+            android:layout_marginLeft="260px"
+            android:layout_marginTop="30px"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cf_tv01"
+                android:layout_width="380px"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20px"
+                android:textColor="@color/colorText1"
+                android:textSize="24px" />
+
+            <TextView
+                android:id="@+id/cf_tv02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20px"
+                android:textColor="@color/colorText1"
+                android:textSize="24px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:layout_marginLeft="340px"
+            android:layout_marginRight="340px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cf_bt01"
+                android:layout_width="180px"
+                android:layout_height="match_parent"
+                android:layout_margin="10px"
+                android:text="更改就诊人"
+                android:textColor="@color/colorText1"
+                android:textSize="24px" />
+
+            <Button
+                android:id="@+id/cf_bt02"
+                android:layout_width="180px"
+                android:layout_height="match_parent"
+                android:layout_margin="10px"
+                android:text="取消预约"
+                android:textColor="@color/colorText1"
+                android:textSize="24px" />
+
+            <Button
+                android:id="@+id/cf_bt03"
+                android:layout_width="180px"
+                android:layout_height="match_parent"
+                android:layout_margin="10px"
+                android:text="确认预约"
+                android:textColor="@color/colorText1"
+                android:textSize="24px" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

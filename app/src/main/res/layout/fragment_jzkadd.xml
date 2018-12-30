@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/jzk1_fl01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <com.ppfuns.jxyyzl.view.TvEditText
+            android:id="@+id/jzk1_et_xm"
+            android:layout_width="220px"
+            android:layout_height="65px"
+            android:layout_marginLeft="202px"
+            android:layout_marginTop="60px"
+            android:background="@drawable/edit_focus"
+            android:focusable="true"
+            android:gravity="center"
+            android:hint="输入姓名"
+            android:textColor="@color/colorText1"
+            android:textSize="30px" />
+
+        <com.ppfuns.jxyyzl.view.PopEditTextCard
+            android:id="@+id/jzk1_et_ktype"
+            android:layout_width="220px"
+            android:layout_height="65px"
+            android:layout_marginLeft="434px"
+            android:layout_marginTop="60px"
+            android:background="@drawable/edit_focus"
+            android:gravity="center"
+            android:hint="选择卡号类型"
+            android:textColor="@color/colorText1"
+            android:textColorHint="#000"
+            android:textSize="30px" />
+
+        <com.ppfuns.jxyyzl.view.PopEditHostpital
+            android:id="@+id/jzk1_et_hs"
+            android:layout_width="462px"
+            android:layout_height="65px"
+            android:layout_marginLeft="202px"
+            android:layout_marginTop="140px"
+            android:background="@drawable/edit_focus"
+            android:gravity="center"
+            android:hint="输入医院"
+            android:textColor="@color/colorText1"
+            android:textSize="30px" />
+
+        <com.ppfuns.jxyyzl.view.TvEditText
+            android:id="@+id/jzk1_et_kh"
+            android:layout_width="462px"
+            android:layout_height="65px"
+            android:layout_marginLeft="202px"
+            android:layout_marginTop="220px"
+            android:background="@drawable/edit_focus"
+            android:gravity="center"
+            android:hint="输入就诊卡号"
+            android:textColor="@color/colorText1"
+            android:textSize="30px" />
+
+
+        <LinearLayout
+            android:layout_width="710px"
+            android:layout_height="1px"
+            android:layout_marginLeft="65px"
+            android:layout_marginTop="346px"
+            android:background="#7DC7DF" />
+
+        <LinearLayout
+            android:layout_width="462px"
+            android:layout_height="65px"
+            android:layout_marginLeft="202px"
+            android:layout_marginTop="390px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/jzk1_bt_cx"
+                android:layout_width="198px"
+                android:layout_height="65px"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/colorText1"
+                android:textSize="30px" />
+            <Button
+                android:id="@+id/jzk1_bt_next"
+                android:layout_width="198px"
+                android:layout_height="65px"
+                android:layout_marginLeft="24px"
+                android:gravity="center"
+                android:text="下一步"
+                android:textColor="@color/colorText1"
+                android:textSize="30px" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/jzk2_fl02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/jzk2_tv_xm"
+            android:layout_width="170px"
+            android:layout_height="65px"
+            android:layout_marginLeft="125px"
+            android:layout_marginTop="60px"
+            android:background="@drawable/enablefalse"
+            android:enabled="false"
+            android:gravity="center"
+            android:hint="预约人姓名"
+            android:singleLine="true"
+            android:textColor="@color/colorText1"
+            android:textColorHint="#000"
+            android:textSize="30px" />
+
+        <LinearLayout
+            android:layout_width="180px"
+            android:layout_height="65px"
+            android:layout_marginLeft="305px"
+            android:layout_marginTop="60px"
+            android:background="@drawable/edit_focus"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/jzk2_ck01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="是否儿童"
+                android:textColor="#000"
+                android:textSize="30px" />
+        </LinearLayout>
+
+        <com.ppfuns.jxyyzl.view.TvEditText
+            android:id="@+id/jzk2_et_xm2"
+            android:layout_width="230px"
+            android:layout_height="65px"
+            android:layout_marginLeft="500px"
+            android:layout_marginTop="60px"
+            android:background="@drawable/edit_focus"
+            android:gravity="center"
+            android:hint="输入监护人姓名"
+            android:singleLine="true"
+            android:textColor="@color/colorText1"
+            android:textSize="30px" />
+
+        <com.ppfuns.jxyyzl.view.PopEditTextSex
+            android:id="@+id/jzk2_et_sex"
+            android:layout_width="255px"
+            android:layout_height="65px"
+            android:layout_marginLeft="125px"
+            android:layout_marginTop="140px"
+            android:background="@drawable/edit_focus"
+            android:enabled="false"
+            android:gravity="center"
+            android:hint="选择性别"
+            android:singleLine="true"
+            android:textColor="@color/colorText1"
+            android:textColorHint="#000"
+            android:textSize="30px" />
+
+        <com.ppfuns.jxyyzl.view.TvEditText
+            android:id="@+id/jzk2_et_sfz"
+            android:layout_width="330px"
+            android:layout_height="65px"
+            android:layout_marginLeft="400px"
+            android:layout_marginTop="140px"
+            android:background="@drawable/edit_focus"
+            android:gravity="center"
+            android:hint="输入监护人身份证号"
+            android:singleLine="true"
+            android:textColor="@color/colorText1"
+            android:textSize="30px" />
+
+        <Button
+            android:id="@+id/jzk2_bt_sr"
+            android:layout_width="255px"
+            android:layout_height="65px"
+            android:layout_marginLeft="125px"
+            android:layout_marginTop="220px"
+            android:background="@drawable/edit_focus"
+            android:gravity="center"
+            android:hint="出生日期"
+            android:singleLine="true"
+            android:textColor="@color/colorText1"
+            android:textColorHint="#000"
+            android:textSize="30px" />
+
+        <com.ppfuns.jxyyzl.view.TvEditText
+            android:id="@+id/jzk2_et_ph"
+            android:layout_width="330px"
+            android:layout_height="65px"
+            android:layout_marginLeft="400px"
+            android:layout_marginTop="220px"
+            android:background="@drawable/edit_focus"
+            android:gravity="center"
+            android:hint="输入监护人手机号码"
+            android:singleLine="true"
+            android:textColor="@color/colorText1"
+            android:textSize="30px" />
+
+
+        <LinearLayout
+            android:layout_width="710px"
+            android:layout_height="1px"
+            android:layout_marginLeft="65px"
+            android:layout_marginTop="346px"
+            android:background="#7DC7DF" />
+
+        <LinearLayout
+            android:layout_width="462px"
+            android:layout_height="65px"
+            android:layout_marginLeft="212px"
+            android:layout_marginTop="390px"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/jzk2_bt_cx2"
+                android:layout_width="198px"
+                android:layout_height="65px"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/colorText1"
+                android:textSize="30px" />
+
+            <Button
+                android:id="@+id/jzk2_bt_tj"
+                android:layout_width="198px"
+                android:layout_height="65px"
+                android:layout_marginLeft="24px"
+                android:gravity="center"
+                android:text="提交"
+                android:textColor="@color/colorText1"
+                android:textSize="30px" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

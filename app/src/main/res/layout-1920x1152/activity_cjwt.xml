@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cjwtbak"
+    android:focusableInTouchMode="false">
+
+    <com.ppfuns.jxyyzl.view.DateView
+        android:layout_width="322px"
+        android:layout_height="128px"
+        android:layout_marginLeft="1507px"
+        android:layout_marginTop="44px"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="right"
+        android:textColor="#FFFFFF"
+        android:textSize="36px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="501px"
+        android:layout_marginTop="200px"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="left|center">
+
+        <ImageView
+            android:layout_width="49px"
+            android:layout_height="52px"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/num1y" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="常见问题答疑"
+            android:textColor="@color/colorText1"
+            android:textSize="42px" />
+    </LinearLayout>
+
+
+    <com.ppfuns.jxyyzl.view.ListViewTv
+        android:id="@+id/yygh_lv01"
+        android:layout_width="327px"
+        android:layout_height="780px"
+        android:layout_marginLeft="96px"
+        android:layout_marginTop="304px"
+        android:divider="#00000000"
+        android:dividerHeight="0dip"
+        android:listSelector="@drawable/list_focus"
+        android:scrollbars="vertical" />
+
+    <android.support.v17.leanback.widget.VerticalGridView
+        android:id="@+id/jzrgladd_fl01"
+        android:layout_width="1332px"
+        android:layout_height="780px"
+        android:layout_marginLeft="477px"
+        android:layout_marginTop="304px"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+</RelativeLayout>

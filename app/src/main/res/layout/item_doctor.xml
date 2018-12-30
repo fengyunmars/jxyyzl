@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="152px"
+    android:layout_gravity="center"
+    android:layout_margin="2px"
+    android:background="@drawable/itemfocus1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:minHeight="152px">
+
+    <ImageView
+        android:id="@+id/iv01"
+        android:layout_width="152px"
+        android:layout_height="match_parent"
+        android:padding="30px"
+        android:scaleType="fitXY"
+        android:src="@drawable/doctor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="10px"
+        android:duplicateParentState="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+        <com.ppfuns.jxyyzl.view.MarqueeTextView
+            android:id="@+id/tv01"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="3"
+            android:duplicateParentState="true"
+            android:ellipsize="marquee"
+            android:gravity="left|center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@color/colorText1"
+            android:textSize="32px" />
+
+        <com.ppfuns.jxyyzl.view.MarqueeTextView
+            android:id="@+id/tv02"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"
+            android:duplicateParentState="true"
+            android:gravity="left|center"
+            android:textColor="@color/colorText1"
+            android:textSize="16px" />
+
+        <com.ppfuns.jxyyzl.view.MarqueeTextView
+            android:id="@+id/tv03"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"
+            android:duplicateParentState="true"
+            android:ellipsize="marquee"
+            android:gravity="left|center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textColor="@color/colorText1"
+            android:textSize="24px" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbak"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    tools:context="com.ppfuns.jxyyzl.ui.MainActivity">
+
+    <com.ppfuns.jxyyzl.view.FocusView
+        android:id="@+id/main_yygh"
+        android:layout_width="283px"
+        android:layout_height="190px"
+        android:layout_marginLeft="350px"
+        android:layout_marginTop="286px"
+        android:background="@drawable/yygh"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <com.ppfuns.jxyyzl.view.FocusView
+        android:id="@+id/main_yyjl"
+        android:layout_width="283px"
+        android:layout_height="190px"
+        android:layout_marginLeft="646px"
+        android:layout_marginTop="286px"
+        android:background="@drawable/yyjl"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+
+    <com.ppfuns.jxyyzl.view.FocusView
+        android:id="@+id/main_cjwt"
+        android:layout_width="283px"
+        android:layout_height="190px"
+        android:layout_marginLeft="350px"
+        android:layout_marginTop="486px"
+        android:background="@drawable/cjwt"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <com.ppfuns.jxyyzl.view.FocusView
+        android:id="@+id/main_jzrgl"
+        android:layout_width="283px"
+        android:layout_height="190px"
+        android:layout_marginLeft="646px"
+        android:layout_marginTop="486px"
+        android:background="@drawable/jzrgl"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+</RelativeLayout>

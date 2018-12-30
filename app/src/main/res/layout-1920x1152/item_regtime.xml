@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="243px"
+    android:layout_margin="2px"
+    android:background="@drawable/itemfocus1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:minHeight="243px"
+    android:orientation="vertical"
+    android:paddingBottom="25px"
+    android:paddingTop="40px"
+    android:weightSum="2">
+
+    <com.ppfuns.jxyyzl.view.MarqueeTextView
+        android:id="@+id/tv01"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:duplicateParentState="true"
+        android:gravity="center"
+        android:textColor="@color/colorText1"
+        android:textSize="45px" />
+
+    <com.ppfuns.jxyyzl.view.MarqueeTextView
+        android:id="@+id/tv02"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:duplicateParentState="true"
+        android:gravity="center"
+        android:textColor="@color/colorText1"
+        android:textSize="45px" />
+
+</LinearLayout>

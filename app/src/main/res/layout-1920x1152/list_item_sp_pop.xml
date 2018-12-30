@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="#FFF"
+
+    android:gravity="center"
+
+    android:orientation="vertical">
+
+
+    <TextView
+
+        android:id="@+id/pop_tv01"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/selecttext_focus"
+
+        android:focusable="true"
+
+        android:gravity="center"
+
+        android:padding="5px"
+
+        android:text="男"
+
+        android:textSize="45px" />
+
+
+    <TextView
+
+        android:id="@+id/pop_tv02"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/selecttext_focus"
+
+        android:focusable="true"
+
+        android:gravity="center"
+
+        android:padding="5px"
+
+        android:text="女"
+
+        android:textSize="45px" />
+
+</LinearLayout>
